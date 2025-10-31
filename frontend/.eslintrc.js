@@ -24,6 +24,7 @@ module.exports = {
     'react/function-component-definition': 'off',
     'import/prefer-default-export': 'off',
     'import/extensions': 'off',
+    'import/no-unresolved': ['error', { ignore: ['^@vercel/analytics'] }],
     'no-underscore-dangle': 'off',
     'react/jsx-filename-extension': [
       2,
