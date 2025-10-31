@@ -131,7 +131,7 @@ export const Slides = ({
       >
         <ImageWindow
           delay={100}
-          title="HAILEY.jpg"
+          title="ME.jpg"
           topColor="violet"
           positions={['60% 15%']}
           className={`

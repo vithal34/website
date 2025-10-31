@@ -4,32 +4,35 @@ import jpImage from '../public/images/jp.jpg';
 /* eslint-disable no-multiple-empty-lines */
 /* eslint-disable max-len */
 export const aboutContent = {
-  intro: ['I\'m Vithal! (he/him)', 'Innovator | Founder | \ Aspiring Blue Devil'],
+  intro: ['I\'m Vithal Agrawal! (he/him) Innovator | Founder ', 'Aspiring Blue Devil'],
   mission: [
     'curious thinker passionate about technology, science, and creating meaningful impact through innovation, problem-solving, and a constant drive to learn and push boundaries',
     /*'By morning, I\'ll trade sleeping bags for notebooks—Mathematics for AI, Interpretable ML with Professor Rudin, DSA with Professor Ola. Then deploy SaathiCare in Kampala clinics with unstable Wi-Fi.',
     'At Duke, I\'ll blend K-Ville\'s persistence with Bass Connections\' global health research, Innovation Co-Lab\'s makerspace, and BRiDGE\'s incubator. That\'s the Duke difference.',*/
   ],
-  testimonials: [{
-    quote: 'At SFLML, as Finance Head, he was painfully frugal. But he could somehow sweet-talk CSR officers into doubling their contributions',
-    shortName: 'SaathiCare',
-    name: 'Founder – SaathiCare',
-    headshot: stefImage,
-    title: [
-      'AI Healthcare | 50K+ Served | Featured in Times of India',
-    ],
-  }, {
-    quote: 'I tested HapticEye for a week, and it honestly made walking feel so much less stressful. I expected the haptics to be hard to comprehend at first but after about two days of usage the patterns were quite recognizable and easy to follow. Highly recommend it to any visually impaired individuals.',
-    name: 'Aman Mittal - Businessman, Hobbyist Singer (visually impaired)',
-    shortName: 'HapticEye',
-    title: ['Haptic Feedback Belt'],
-    headshot: jpImage,
-  }, {
-    quote: 'SynBioGuard Innovations: Invented patent-pending LuccKey biosensor for E.coli detection. Deployed to 20K+ rural users, cutting waterborne illness 40%. Recognized by World Health Organization.',
-    name: 'Founder & Lead Bioengineer – SynBioGuard',
-    shortName: 'SynBioGuard',
-    headshot: '/images/star-icon.svg',
-  }],
+  testimonials: [
+    {
+      quote: "At SFLML, as Finance Head, he was painfully frugal. But he could somehow sweet-talk CSR officers into doubling their contributions.",
+      shortName: "SFLML",
+      name: "Saachi Sood - Core Team, SFLML",
+      headshot: stefImage,
+      title: ["Finance Head | CSR Partnerships | Student Leadership"],
+    },
+    {
+      quote: "I tested HapticEye for a week, and it honestly made walking feel so much less stressful. I expected the haptics to be hard to comprehend at first but after about two days of usage the patterns were quite recognizable and easy to follow.",
+      shortName: "HapticEye",
+      name: "Aman Mittal - Singer & Entrepreneur (visually impaired)",
+      title: ["User Experience | Accessibility Advocate"],
+      headshot: jpImage,
+    },
+    {
+      quote: "हमारे शहर में रोशनी लाने के लिए आपका बहुत-बहुत शुक्रिया। यह धूपदान में चार्ज हो जाता है और हम इसे रात भर इस्तेमाल कर सकते हैं, जबकि पहले शाम 6 बजे के बाद लाइट नहीं होती थी। (Thank you so much for bringing light to our village. It charges in the sun and we can use it all night long, whereas previously there was no light after 6 p.m.",
+      shortName: "Roshni",
+      name: "Dinesh Chaudhary - Resident, Muhana (a village impacted by Project Roshni)",
+      title: ["Solar Empowerment | Rural Impact | Sustainability"],
+      headshot: "/images/dinesh.png",
+    },
+  ],
   skills: [
     `
       Founder of SaathiCare: AI-powered healthcare app serving 50K+ underserved Indians,

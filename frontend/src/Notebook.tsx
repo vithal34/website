@@ -115,31 +115,46 @@ export function Notebook({ ...groupProps }:GroupProps) {
           >
             <div
               className={`
-                relative bg-black/90 border-2 border-white rounded-lg p-8
+                relative bg-black/90 border-2 rounded-lg p-8
                 max-h-[80vh] overflow-y-auto no-scrollbar
                 ${breakpoints.about
                   ? 'max-w-[600px] w-full'
                   : 'max-w-[90vw] w-full'}
               `}
+              style={{
+                borderColor: colors.violet,
+              }}
             >
               <button
                 className={`
                   absolute top-2 right-2
                   font-mono text-4xl font-bold px-3 py-1
-                  text-white hover:text-blue transition-colors
-                  bg-black/50 hover:bg-black/80 rounded-full
-                  border-2 border-white hover:border-blue
+                  transition-colors rounded-full
                   cursor-pointer z-10
                 `}
+                style={{
+                  color: colors.white,
+                  backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                  border: `2px solid ${colors.violet}`,
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = colors.violet;
+                  e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
+                  e.currentTarget.style.borderColor = colors.violet;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = colors.white;
+                  e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+                  e.currentTarget.style.borderColor = colors.violet;
+                }}
                 onClick={() => { setHonorsOpen(false); }}
                 type="button"
                 aria-label="close honors"
-                style={{ pointerEvents: 'auto' }}
               >
                 ×
               </button>
-              <div className="font-mono text-white">
-                <h2 className="text-4xl font-bold mb-6">Honors & Awards</h2>
+              <div className="font-mono" style={{ color: colors.white }}>
+                <h2 className="text-4xl font-bold mb-6" style={{ color: colors.violet }}>Honors & Awards</h2>
                 <ul className="space-y-3 list-disc pl-6 text-lg leading-relaxed">
                   {honorsAndAwards.map((item) => (
                     <li key={item} className="mb-2">{item}</li>

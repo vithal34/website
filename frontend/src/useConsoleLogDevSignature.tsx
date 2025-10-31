@@ -8,8 +8,8 @@ export const useConsoleLogDevSignature = () => {
   const style = `color: white; background: blue; font-family:monospace; ${sizeStyle}`;
   const log = (text: string) => console.log(`%c${text.toUpperCase()}`, style);
   useTimeout(() => {
-    log('looking at my code, are you?');
-    log('awesome! dig around!');
+    log('Hover here — Coach K would want you to?');
+    log('Hovering here counts as a three pointers against UNC!');
     log('This is my Duke application portfolio!');
     console.log('%chttps://vithalagrawal.com', sizeStyle);
     log('hmu to nerd out about SaathiCare, NightVisionX, or Duke!');
