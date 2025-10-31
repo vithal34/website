@@ -70,7 +70,7 @@ export function Notebook({ ...groupProps }:GroupProps) {
           anchorX="center"
           anchorY="middle"
           fontSize={0.22}
-          font={fontUrls.bryantBold}
+          font={fontUrls.displayBold}
           visible={linesVisible}
         >
           {['HONORS &', 'AWARDS'].join('\n')}

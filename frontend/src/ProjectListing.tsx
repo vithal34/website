@@ -109,7 +109,7 @@ export function ProjectListing({ active, projects, ...groupProps }:
           anchorY="middle"
           textAlign="center"
           fontSize={0.5}
-          font={fontUrls.bryantBold}
+          font={fontUrls.displayBold}
           material-toneMapped={false}
         >
           {([`${hasNoMouse ? 'Tap' : 'Click'} an`, 'ice cube.']).join('\n')}

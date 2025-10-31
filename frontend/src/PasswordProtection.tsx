@@ -85,8 +85,6 @@ export function PasswordProtection({ children }: { children: React.ReactNode }) 
           </form>
           <p className="mt-6 text-sm font-mono text-white/70">
            Confidential content © 2025 Vithal Agrawal
-
-           P.S. Please forgive me if it's a bit too much.
           </p>
         </div>
       </div>

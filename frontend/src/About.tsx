@@ -118,7 +118,7 @@ export const Slides = ({
             ${slide === 'mission' ? '' : 'translate-x-[20%] translate-y-[70%]'}
           `}
             srcs={[selfPortraitImage]}
-            alts={['Crayon illustration of Bryant from decades ago.']}
+            alts={['Self portrait illustration.']}
           />
         </div>
       )}

@@ -24,7 +24,7 @@ export default function Document() {
     <Html>
       <Head>
         <GoogleFonts href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&family=Roboto:wght@100&display=swap" />
-        <PreloadLocalFont href={fontUrls.bryantBold} />
+        <PreloadLocalFont href={fontUrls.displayBold} />
       </Head>
       <body>
         <Main />

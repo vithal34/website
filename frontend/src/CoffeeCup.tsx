@@ -126,7 +126,7 @@ export function CoffeeCup() {
         anchorX="center"
         anchorY="middle"
         fontSize={0.5}
-        font={fontUrls.bryantBold}
+        font={fontUrls.displayBold}
         visible={projectButtonVisible1}
       >
         {scene === 'projects' || scene === 'project-open' ? 'BACK' : ['PROJ', 'ECTS'].join('\n')}
