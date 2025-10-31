@@ -9,7 +9,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'SaathiCare',
     subTitle: 'Founder, AI Lead & Social Impact Technologist',
     // @ts-ignore mock description
-    description: 'Founder of AI healthcare app using spaCy NLP and TTS, screening 5K+ patients; $10k seed; ensured accurate translations in 10+ Indian languages.',
+    description: 'Founded SaathiCare, an AI-powered healthcare platform that addresses critical gaps in rural Indian healthcare accessibility. Built sophisticated natural language processing systems using spaCy NLP for accurate symptom triage and diagnosis support. Developed text-to-speech (TTS) capabilities to serve illiterate populations, ensuring the platform is accessible to all. Successfully screened over 5,000 patients across multiple Indian states, identifying 500+ critical health risks that may have otherwise gone undetected. Secured $10k in seed funding and ensured accurate medical translations across 10+ Indian languages including Hindi, Tamil, Telugu, Bengali, and Marathi. Collaborated with nonprofit clinics and rural healthcare workers to deploy the solution in underserved communities.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'saathicare' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -23,7 +23,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'NightVisionX',
     subTitle: 'Founder & Lead Engineer – AI Obstacle Detection',
     // @ts-ignore mock description
-    description: 'Built govt-backed AI night-vision system using low-cost cameras; deployed on 700+ trucks, reducing highway crashes by 31%.',
+    description: 'Designed and developed NightVisionX, a government-backed AI-powered obstacle detection system that enhances safety for commercial truck drivers operating in low-light conditions. Leveraged computer vision and deep learning algorithms to detect obstacles, pedestrians, and potential hazards using low-cost camera systems that make the technology accessible. Successfully deployed the system across 700+ commercial trucks throughout India, working directly with logistics companies and transportation authorities. The deployment resulted in a 31% reduction in nighttime highway crashes, potentially saving hundreds of lives. Estimated to generate $45K in initial revenue while receiving official backing from India\'s Ministry of Transport. Conducted extensive field testing, developed partnerships with logistics companies, and ensured the technology works reliably across diverse road conditions and weather scenarios.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'nightvisionx' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -37,7 +37,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'IntoxiWatch',
     subTitle: 'Founding Engineer',
     // @ts-ignore mock description
-    description: 'App based alcohol detector deployed in 20+ clubs; building bartender courses on safe serving; blended technical innovation with real-world responsibility.',
+    description: 'Served as a founding engineer for IntoxiWatch, an AI-powered system designed to detect individuals who may be too intoxicated and require assistance in bars and restaurants. Developed a CNN (Convolutional Neural Network) model for alcohol detection, working at the intersection of computer vision, public safety, and social responsibility. Successfully deployed the application-based alcohol detection system in 20+ clubs and restaurants, helping establishments better manage customer safety. Expanded the initiative beyond technology by creating comprehensive training courses for bartenders on safe serving practices and responsible alcohol management. The project demonstrates a thoughtful approach to using technology for public good while addressing real-world social challenges in hospitality environments.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'intoxiwatch' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -51,7 +51,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'iGEM Team',
     subTitle: 'Founder & Team Leader',
     // @ts-ignore mock description
-    description: 'Founded & led India\'s 1st HS iGEM team; engineered water-purification system, directed wet lab, outreach, fundraising, 22 peers.',
+    description: 'Founded and led India\'s first high school iGEM (International Genetically Engineered Machine) synthetic biology team, establishing a new pathway for young Indian scientists in synthetic biology. Engineered a comprehensive biological water-purification system designed to address contamination challenges in rural Indian communities. Managed all aspects of the team including wet lab experiments, where I directed complex biological engineering protocols and ensured rigorous scientific methodology. Coordinated extensive outreach initiatives to educate communities about synthetic biology and water safety. Led fundraising efforts to secure resources for laboratory equipment, materials, and team participation in the international competition. Successfully managed a team of 22 peers, fostering collaboration across disciplines and mentoring younger students in scientific research and leadership.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'igem' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -65,7 +65,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'Saraf Capital',
     subTitle: 'Portfolio Manager & Lead Developer',
     // @ts-ignore mock description
-    description: 'Developed Python algorithm using LSTM neural networks and pandas-based backtesting to generate 25% annualized returns; guided 200+ investors with live trading simulations.',
+    description: 'Established Saraf Capital as a portfolio management platform that leverages AI and machine learning to revolutionize investment strategies. Designed and developed a sophisticated Python trading algorithm utilizing LSTM (Long Short-Term Memory) neural networks to analyze market patterns and predict trends. Built comprehensive backtesting frameworks using pandas and Python to validate trading strategies across historical market data, ensuring robust risk management. The algorithm successfully generated 25% annualized returns, tested live with $20K of real capital and generating $5K+ in profits. Guided over 200 investors through educational webinars and online investment communities, teaching modern AI-driven approaches to financial markets. Created live trading simulations that help investors understand algorithmic trading while demonstrating real-world performance.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'saraf-capital' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -79,7 +79,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'SFCC & SFLML',
     subTitle: 'Finance Head',
     // @ts-ignore mock description
-    description: 'Raised $325K+ for wellness & rural schools; funded 550 schools/16.5K students, stationed 1K+ therapists, led India\'s largest wellness event.',
+    description: 'Served as Finance Head for two major social impact initiatives: SFCC (Student Finance Committee for Change) and SFLML (Student Fundraising for Learning and Mental Health). Successfully raised over $325,000 through strategic partnerships, corporate sponsorships, and community fundraising campaigns. The funds directly supported mental health services by stationing 1,000+ therapists in schools and communities, addressing India\'s student mental health crisis, particularly in high-pressure educational environments like Kota. Additionally, funded 550 schools serving 16,500 students for an entire year, ensuring access to quality education in rural and underserved areas. Organized and led India\'s largest student wellness event, bringing together thousands of participants to raise awareness about mental health and educational equity. Partnered with government schools and facilitated workshops, managing logistics for 25+ student organizations working toward similar goals.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'sfcc-sflml' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -93,7 +93,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'Project Roshni',
     subTitle: 'Co-Founder',
     // @ts-ignore mock description
-    description: 'Repurposed 250 solar panels, electrifying 120 villages & 25K+ residents, replacing kerosene lamps & cutting 400 tons CO2; govt-recognized.',
+    description: 'Co-founded Project Roshni, a solar energy access initiative that addresses electricity poverty in rural Indian communities. Led the innovative repurposing of 250 discarded solar panels, transforming what would have been waste into functional renewable energy systems. The project successfully electrified 120 villages, bringing clean, sustainable electricity to over 25,000 residents who previously relied on dangerous kerosene lamps. This initiative not only improved quality of life through reliable lighting but also significantly reduced environmental impact by cutting approximately 400 tons of CO2 emissions annually. The project received official recognition from regional government authorities for its innovative approach to renewable energy and rural development. Managed logistics, technical implementation, and community engagement to ensure the solar systems were properly installed and maintained.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'project-roshni' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -107,7 +107,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'School Captain',
     subTitle: 'Student Government Leadership',
     // @ts-ignore mock description
-    description: 'Elected School Captain; led IB League & Spark, managing 20+ schools/900+ participants, logistics, sponsorships & tech-driven innovations.',
+    description: 'Elected School Captain of Jayshree Periwal International School, serving a student body of over 2,500 students and representing the highest level of student leadership. Led major inter-school competitions including IB League and Spark, coordinating events that brought together 20+ international schools and over 900 participants. Managed complex logistics including venue coordination, participant registration, competition scheduling, and cross-school communications. Secured sponsorships and partnerships to ensure events were well-funded and impactful. Introduced tech-driven innovations including NFC cards for seamless networking, digital registration systems, and innovative event management platforms. Organized workshops and skill development programs, helped organize mental health awareness events, and established academic support groups to improve school-wide engagement and well-being. Mentored junior leaders and learned valuable lessons in public speaking, conflict resolution, and inclusive leadership.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'school-captain' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -121,7 +121,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'SynBioGuard',
     subTitle: 'Founder & Lead Bioengineer',
     // @ts-ignore mock description
-    description: 'Developed patent-pending LuccKey biosensor for E.coli detection. Impacted rural Indian communities, reducing waterborne illnesses by 40%.',
+    description: 'Founded SynBioGuard Innovations to tackle unsafe drinking water access in rural India using synthetic biology and biosensing technology. Invented and filed a patent for the LuccKey biosensor, a low-cost, rapid E.coli detection system that enables quick contamination identification in water sources. The biosensor leverages synthetic biology principles to create a practical, field-deployable solution for water safety testing. Successfully deployed the technology across rural Indian communities, reaching over 20,000 people and resulting in a 40% reduction in waterborne illnesses. Led comprehensive R&D efforts including laboratory design, prototype development, and field testing in real-world conditions. Established strategic partnerships with healthcare organizations and local governments to scale the solution.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'synbioguard' },
     // @ts-ignore mock color - Sanity color format with rgb
@@ -135,7 +135,7 @@ export const mockProjects: Project[] = [
     shortTitle: 'Haptic Belt',
     subTitle: 'Inventor',
     // @ts-ignore mock description
-    description: 'Designed Python + microcontroller-based haptic belt to assist blind navigation; tested with 15 users; presented findings at a national conference.',
+    description: 'Invented an AI-powered haptic feedback device designed to assist blind and visually impaired individuals with navigation and spatial awareness. Developed a comprehensive system combining Python-based AI algorithms with microcontroller hardware to create an intuitive haptic feedback belt. The device processes environmental data and provides tactile feedback through vibration patterns, helping users navigate obstacles and understand their surroundings. Conducted rigorous user testing with 15 blind and visually impaired individuals, gathering feedback to iterate and improve the design. Validated the device\'s effectiveness and user experience through structured testing protocols. Presented research findings and technical methodology at a national conference, contributing to the accessibility technology field. The project demonstrates innovation at the intersection of AI, hardware engineering, and assistive technology, with a focus on real-world impact for people with disabilities.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'haptic-belt' },
     // @ts-ignore mock color - Sanity color format with rgb
