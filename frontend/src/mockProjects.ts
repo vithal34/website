@@ -8,6 +8,8 @@ export const mockProjects: Project[] = [
     title: 'SaathiCare – AI-Powered Multilingual Healthcare for Underserved Indians',
     shortTitle: 'SaathiCare',
     subTitle: 'Founder, AI Lead & Social Impact Technologist',
+    // @ts-ignore mock description
+    description: 'Founder of AI healthcare app using spaCy NLP and TTS, screening 5K+ patients; $10k seed; ensured accurate translations in 10+ Indian languages.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'saathicare' },
     links: [
@@ -23,6 +25,8 @@ export const mockProjects: Project[] = [
     title: 'NightVisionX – Govt-Backed AI Safety Tech Deployed in 700+ Trucks Across India',
     shortTitle: 'NightVisionX',
     subTitle: 'Founder & Lead Engineer – AI Obstacle Detection',
+    // @ts-ignore mock description
+    description: 'Built govt-backed AI night-vision system using low-cost cameras; deployed on 700+ trucks, reducing highway crashes by 31%.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'nightvisionx' },
     links: [
@@ -38,6 +42,8 @@ export const mockProjects: Project[] = [
     title: 'IntoxiWatch - Alcohol Detection System',
     shortTitle: 'IntoxiWatch',
     subTitle: 'Founding Engineer',
+    // @ts-ignore mock description
+    description: 'App based alcohol detector deployed in 20+ clubs; building bartender courses on safe serving; blended technical innovation with real-world responsibility.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'intoxiwatch' },
     links: [
@@ -53,6 +59,8 @@ export const mockProjects: Project[] = [
     title: 'India\'s 1st High School iGEM Synthetic Biology Team',
     shortTitle: 'iGEM Team',
     subTitle: 'Founder & Team Leader',
+    // @ts-ignore mock description
+    description: 'Founded & led India\'s 1st HS iGEM team; engineered water-purification system, directed wet lab, outreach, fundraising, 22 peers.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'igem' },
     links: [
@@ -68,6 +76,8 @@ export const mockProjects: Project[] = [
     title: 'Saraf Capital – AI Trading Algorithm with 25% Returns',
     shortTitle: 'Saraf Capital',
     subTitle: 'Portfolio Manager & Lead Developer',
+    // @ts-ignore mock description
+    description: 'Developed Python algorithm using LSTM neural networks and pandas-based backtesting to generate 25% annualized returns; guided 200+ investors with live trading simulations.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'saraf-capital' },
     links: [
@@ -83,6 +93,8 @@ export const mockProjects: Project[] = [
     title: 'SFCC & SFLML – $325K+ Raised for Mental Health & Rural Education',
     shortTitle: 'SFCC & SFLML',
     subTitle: 'Finance Head',
+    // @ts-ignore mock description
+    description: 'Raised $325K+ for wellness & rural schools; funded 550 schools/16.5K students, stationed 1K+ therapists, led India\'s largest wellness event.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'sfcc-sflml' },
     links: [
@@ -98,6 +110,8 @@ export const mockProjects: Project[] = [
     title: 'Project Roshni – Solar Energy Access Initiative',
     shortTitle: 'Project Roshni',
     subTitle: 'Co-Founder',
+    // @ts-ignore mock description
+    description: 'Repurposed 250 solar panels, electrifying 120 villages & 25K+ residents, replacing kerosene lamps & cutting 400 tons CO2; govt-recognized.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'project-roshni' },
     links: [
@@ -113,6 +127,8 @@ export const mockProjects: Project[] = [
     title: 'School Captain – Jayshree Periwal International School',
     shortTitle: 'School Captain',
     subTitle: 'Student Government Leadership',
+    // @ts-ignore mock description
+    description: 'Elected School Captain; led IB League & Spark, managing 20+ schools/900+ participants, logistics, sponsorships & tech-driven innovations.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'school-captain' },
     links: [
@@ -128,6 +144,8 @@ export const mockProjects: Project[] = [
     title: 'SynBioGuard Innovations – Biosensors for Safe Water Access',
     shortTitle: 'SynBioGuard',
     subTitle: 'Founder & Lead Bioengineer',
+    // @ts-ignore mock description
+    description: 'Developed patent-pending LuccKey biosensor for E.coli detection. Impacted rural Indian communities, reducing waterborne illnesses by 40%.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'synbioguard' },
     links: [
@@ -143,6 +161,8 @@ export const mockProjects: Project[] = [
     title: 'AI Powered Haptic Feedback Device for the Blind',
     shortTitle: 'Haptic Belt',
     subTitle: 'Inventor',
+    // @ts-ignore mock description
+    description: 'Designed Python + microcontroller-based haptic belt to assist blind navigation; tested with 15 users; presented findings at a national conference.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'haptic-belt' },
     links: [

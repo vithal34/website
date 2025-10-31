@@ -114,21 +114,28 @@ const QuoteBlock = ({ value }: {
   </figure>
 );
 
-export const ProjectHeader = ({ project }: { project: Project; }) => (
-  <>
-    <h1
-      className="font-mono leading-[1] mb-6 mt-12"
-      style={{
-        fontSize: (project?.title?.length ?? 0) > 15 ? 'clamp(35px,3.5vw,55px)' : 'clamp(35px,6vw,85px)',
-      }}
-    >
-      {project.title}
-    </h1>
-    <h2
-      className="font-mono text-2xl"
-    >
-      {project.subTitle}
-    </h2>
+export const ProjectHeader = ({ project }: { project: Project; }) => {
+  const projectWithDescription = project as Project & { description?: string };
+  return (
+    <>
+      <h1
+        className="font-mono leading-[1] mb-6 mt-12"
+        style={{
+          fontSize: (project?.title?.length ?? 0) > 15 ? 'clamp(35px,3.5vw,55px)' : 'clamp(35px,6vw,85px)',
+        }}
+      >
+        {project.title}
+      </h1>
+      <h2
+        className="font-mono text-2xl"
+      >
+        {project.subTitle}
+      </h2>
+      {projectWithDescription.description && (
+        <p className="font-mono text-lg mt-4 mb-6 leading-relaxed" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
+          {projectWithDescription.description}
+        </p>
+      )}
     {(
       project.designers?.length || project.client
     ) ? (
@@ -175,8 +182,9 @@ export const ProjectHeader = ({ project }: { project: Project; }) => (
         ))}
       </ul>
     )}
-  </>
-);
+    </>
+  );
+};
 
 export const ProjectBody = ({ project }: { project: Project; }) => useMemo(() => (
   <div className="my-8 tracking-wide">

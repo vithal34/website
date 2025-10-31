@@ -4,7 +4,7 @@ import jpImage from '../public/images/jp.jpg';
 /* eslint-disable no-multiple-empty-lines */
 /* eslint-disable max-len */
 export const aboutContent = {
-  intro: ['I\'m Vithal! (he/him)', 'Innovator | Founder | Aspiring\ Blue Devil'],
+  intro: ['I\'m Vithal! (he/him)', 'Innovator | Founder | \ Aspiring Blue Devil'],
   mission: [
     'curious thinker passionate about technology, science, and creating meaningful impact through innovation, problem-solving, and a constant drive to learn and push boundaries',
     /*'By morning, I\'ll trade sleeping bags for notebooks—Mathematics for AI, Interpretable ML with Professor Rudin, DSA with Professor Ola. Then deploy SaathiCare in Kampala clinics with unstable Wi-Fi.',
