@@ -127,4 +127,18 @@ export const mockProjects: Project[] = [
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 150, g: 0, b: 255 } }, // accessibility purple
   } as unknown as Project,
+  {
+    _type: 'project',
+    // @ts-ignore mock id
+    _id: 'mock-11',
+    title: 'GramCarbon – Carbon Finance Platform for Agricultural Sustainability',
+    shortTitle: 'GramCarbon',
+    subTitle: 'Founder',
+    // @ts-ignore mock description
+    description: 'Currently developing GramCarbon, an ongoing carbon finance initiative that enables farmers to earn verified carbon credits through sustainable agricultural practices. The project focuses on clean cookstove deployment and Alternate Wetting and Drying (AWD) rice cultivation — both proven methods to reduce greenhouse gas emissions and enhance soil sustainability. Collaborating with Dr. Angelo Gurgel, an MIT researcher in agricultural economics and climate policy, to refine carbon modeling methodologies and improve emission-reduction accuracy. Building transparent monitoring systems and working with rural cooperatives to pilot the platform, GramCarbon aims to align rural livelihoods with climate action, demonstrating how innovative finance can empower farmers while mitigating carbon emissions.',
+    // @ts-ignore mock slug
+    slug: { _type: 'slug', current: 'gramcarbon' },
+    // @ts-ignore mock color - Sanity color format with rgb
+    color1: { rgb: { r: 50, g: 200, b: 100 } }, // carbon/sustainability green
+  } as unknown as Project,
 ];
