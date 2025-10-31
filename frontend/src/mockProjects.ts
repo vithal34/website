@@ -17,7 +17,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 0, g: 150, b: 255 } }, // healthcare blue
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -34,7 +34,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 255, g: 100, b: 0 } }, // safety orange
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -51,7 +51,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 200, g: 50, b: 200 } }, // purple
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -68,7 +68,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 0, g: 255, b: 100 } }, // biology green
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -85,7 +85,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 255, g: 215, b: 0 } }, // finance gold
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -102,7 +102,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 255, g: 50, b: 100 } }, // social impact pink
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -119,7 +119,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 255, g: 200, b: 0 } }, // solar yellow
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -136,7 +136,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 100, g: 100, b: 255 } }, // leadership blue
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -153,7 +153,7 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 0, g: 200, b: 150 } }, // water blue-green
-  } as Project,
+  } as unknown as Project,
   {
     _type: 'project',
     // @ts-ignore mock id
@@ -170,5 +170,5 @@ export const mockProjects: Project[] = [
     ],
     // @ts-ignore mock color - Sanity color format with rgb
     color1: { rgb: { r: 150, g: 0, b: 255 } }, // accessibility purple
-  } as Project,
+  } as unknown as Project,
 ];
