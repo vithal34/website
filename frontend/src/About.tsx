@@ -219,7 +219,7 @@ export const Slides = ({
         >
           <SkillArtWindow
             className="w-full h-full"
-            title="PAINT_TO_REVEAL_MY_SKILLS"
+            title="SIX_STROKES_OF_IMPACT"
             color="white"
             topColor="white"
             setScene={setScene}

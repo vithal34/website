@@ -2,13 +2,12 @@ import React, { useState } from 'react';
 import { useInterval } from 'usehooks-ts';
 import { CustomCursorHover, CustomCursorState } from './CustomCursor';
 import { useParamOnLoad } from './useParamOnLoad';
-import { contactHref, linkedInHref, twitterHref } from './contactHref';
+import { contactHref, linkedInHref } from './contactHref';
 import { useSceneController } from './SceneController';
 import MailIconSvg from './svg/MailIconSvg';
 import { useChangingColorPalette } from './useChangingColorPalette';
 import { useDelayedBoolean } from './useDelayedBoolean';
 import LinkedInIconSvg from './svg/LinkedInIconSvg';
-import TwitterIconSvg from './svg/TwitterIconSvg';
 
 // const availablity = 'available Q4';
 
@@ -158,17 +157,6 @@ export const CTA = () => {
               onFocus={onFocus}
               onBlur={onBlur}
               cursor="linked-in"
-            />
-          </li>
-          <li>
-            <SocialLink
-              title="Twitter"
-              IconSvg={TwitterIconSvg}
-              showCTAs={showCTAs}
-              href={twitterHref}
-              onFocus={onFocus}
-              onBlur={onBlur}
-              cursor="twitter"
             />
           </li>
         </ul>

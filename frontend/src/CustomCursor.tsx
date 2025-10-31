@@ -32,7 +32,6 @@ export type CustomCursorState = null
  | 'external'
  | 'none'
  | 'linked-in'
- | 'twitter'
 
 /** Cant use <Head> tag or SSR inside CustomCursorRenderer,
   * since it conditionally runs based on user env
@@ -116,11 +115,6 @@ const CustomCursorRenderer = ({ cursor }:{cursor:CustomCursorState}) => {
         {cursor === 'linked-in' && (
           <>
             LinkedIn
-          </>
-        )}
-        {cursor === 'twitter' && (
-          <>
-            Twitter
           </>
         )}
         {cursor === 'default' && null}

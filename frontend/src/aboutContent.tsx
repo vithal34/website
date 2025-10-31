@@ -35,44 +35,22 @@ export const aboutContent = {
   ],
   skills: [
     `
-      Founder of SaathiCare: AI-powered healthcare app serving 50K+ underserved Indians,
-      screening 1,200+ rural users, detecting 500+ critical health risks. $50K seed in process.
+      Innovation: Built SaathiCare, an AI healthcare platform screening 5,000+ patients, bridging medical access through multilingual AI triage and teleconsultations.
     `,
     `
-      NightVisionX: Built AI obstacle detection for low-light conditions, deployed across 700+ trucks.
-      Reduced nighttime crashes by 31%, backed by India\'s Ministry of Transport.
+      Purpose: As Finance Head for SFCC & SFLML, raised $325K+, funding 1,000+ therapists and education for 16,500 students across India.
     `,
     `
-      SynBioGuard Innovations: Invented patent-pending biosensor for E.coli detection,
-      deployed to 20K+ rural users, reducing waterborne illness 40%. WHO recognition.
+      Science & Discovery: Leading iGEM team developing water purification techniques for phosphates and nitrates contamination — uniting biology and engineering for global health.
     `,
     `
-      Saraf Capital: Built ML trading algorithm generating 25% annualized returns,
-      tested live with $20K funds, $5K+ profits. Guided 200+ investors via webinars.
+      Leadership: Served as School Captain, leading 2,500+ students in IB League (20+ schools), curated Spark events (900+ participants), mentored future leaders.
     `,
     `
-      iGEM Team Leader: Led India\'s first high school iGEM team (22 members),
-      engineered water purification system, coordinated wet lab, outreach, and fundraising.
+      Vision: IntoxiWatch began with a single question: could we use AI to recognize danger before it turns into disaster? Our biosensor and computer vision system detects when individuals are too intoxicated to drive or need assistance — empowering communities, bars, and authorities to act early. Deployed in local road safety programs and hospitality training initiatives, it now safeguards thousands across India.
     `,
     `
-      Finance Head, SFCC & SFLML: Raised $325K+ for student wellness & rural education.
-      Awarded World Record for Largest Fundraiser for Rural Education by Noble World Records.
-    `,
-    `
-      School Captain: Led 2,500+ student body, organized IB League (20+ schools),
-      curated Spark events (900+ participants), mentored future leaders.
-    `,
-    `
-      Co-Founder, Empower-Invest: Taught financial literacy to 700+ students across 40 schools,
-      created AI platform and simulation-based learning for personal finance education.
-    `,
-    `
-      Co-Founder, Hands for Hunger: Delivered 10,000+ surplus meals, built network
-      linking restaurants and shelters, reducing urban food waste across Rajasthan.
-    `,
-    `
-      Project Roshni: Repurposed 250 solar panels, electrifying 120 villages & 25K+ residents,
-      replacing kerosene lamps, cutting 400 tons CO2. Government-recognized impact.
+      Identity: A student, researcher, and problem-solver — crafting technology that speaks the language of humanity.
     `,
   ],
 };

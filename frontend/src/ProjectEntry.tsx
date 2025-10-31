@@ -219,7 +219,7 @@ export const ProjectEntry = ({
             />
             <CoffeeVideoMaterial
               videoSrc={`/videos/${project?.slug?.current}.mp4`}
-              thumbSrc={`/videos/${project?.slug?.current}-thumb.jpg`}
+              thumbSrc="/videos/thumb.jpg"
               active={active}
             />
           </mesh>

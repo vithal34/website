@@ -60,26 +60,12 @@ export const mockProjects: Project[] = [
   {
     _type: 'project',
     // @ts-ignore mock id
-    _id: 'mock-5',
-    title: 'Saraf Capital – AI Trading Algorithm with 25% Returns',
-    shortTitle: 'Saraf Capital',
-    subTitle: 'Portfolio Manager & Lead Developer',
-    // @ts-ignore mock description
-    description: 'Established Saraf Capital as a portfolio management platform that leverages AI and machine learning to revolutionize investment strategies. Designed and developed a sophisticated Python trading algorithm utilizing LSTM (Long Short-Term Memory) neural networks to analyze market patterns and predict trends. Built comprehensive backtesting frameworks using pandas and Python to validate trading strategies across historical market data, ensuring robust risk management. The algorithm successfully generated 25% annualized returns, tested live with $20K of real capital and generating $5K+ in profits. Guided over 200 investors through educational webinars and online investment communities, teaching modern AI-driven approaches to financial markets. Created live trading simulations that help investors understand algorithmic trading while demonstrating real-world performance.',
-    // @ts-ignore mock slug
-    slug: { _type: 'slug', current: 'saraf-capital' },
-    // @ts-ignore mock color - Sanity color format with rgb
-    color1: { rgb: { r: 255, g: 215, b: 0 } }, // finance gold
-  } as unknown as Project,
-  {
-    _type: 'project',
-    // @ts-ignore mock id
     _id: 'mock-6',
     title: 'SFCC & SFLML – $325K+ Raised for Mental Health & Rural Education',
     shortTitle: 'SFCC & SFLML',
     subTitle: 'Finance Head',
     // @ts-ignore mock description
-    description: 'Served as Finance Head for two major social impact initiatives: SFCC (Student Finance Committee for Change) and SFLML (Student Fundraising for Learning and Mental Health). Successfully raised over $325,000 through strategic partnerships, corporate sponsorships, and community fundraising campaigns. The funds directly supported mental health services by stationing 1,000+ therapists in schools and communities, addressing India\'s student mental health crisis, particularly in high-pressure educational environments like Kota. Additionally, funded 550 schools serving 16,500 students for an entire year, ensuring access to quality education in rural and underserved areas. Organized and led India\'s largest student wellness event, bringing together thousands of participants to raise awareness about mental health and educational equity. Partnered with government schools and facilitated workshops, managing logistics for 25+ student organizations working toward similar goals.',
+    description: 'Finance Head – Students for Collaborative Change (SFCC) & Students for Last Mile Learning (SFLML) Served as Finance Head for two large-scale student-led social impact initiatives addressing mental health and rural education across India. Under SFLML, recognized by Noble World Records for organizing the Largest Fundraiser for Rural Education by High School Students. Managed financial operations, secured corporate social responsibility (CSR) partnerships, and led national outreach efforts that raised $185,000, supporting the education of 1,200+ rural students for an entire academic year. Through SFCC, co-led a $140,000+ national campaign addressing India’s student suicide crisis in Kota, coordinating a 24-hour live event featuring psychologists, educators, and student leaders. The initiative enabled the deployment of 1,000+ therapists to schools and community centers, building sustainable support networks and promoting national awareness around youth mental health.',
     // @ts-ignore mock slug
     slug: { _type: 'slug', current: 'sfcc-sflml' },
     // @ts-ignore mock color - Sanity color format with rgb
