@@ -153,8 +153,7 @@ export const Slides = ({
         />
 
         <TestimonialsWindow
-          className={`
-            relative
+          className={`            relative
             transition-transform duration-[1s]
             ${slide === 'testimonials' ? '' : 'translate-x-[43%] translate-y-[-80%]'}
             ${breakpoint ? 'self-baseline' : 'col-[1/-1] row-[1/-1] self-end'}
@@ -346,3 +345,4 @@ export function ComputerTerminal() {
     </group>
   );
 }
+

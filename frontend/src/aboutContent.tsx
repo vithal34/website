@@ -4,12 +4,14 @@ import jpImage from '../public/images/jp.jpg';
 /* eslint-disable no-multiple-empty-lines */
 /* eslint-disable max-len */
 export const aboutContent = {
-  intro: ['I\'m Vithal! (he/him)', 'Innovator | Founder | Aspiring Blue Devil | Duke Class of 2029'],
+  intro: ['I\'m Vithal! (he/him)', 'Innovator | Founder | Aspiring\ Blue Devil'],
   mission: [
-    'I\'m Vithal Agrawal — founder, engineer, and problem-solver focused on useful AI and biotech. I built SaathiCare (AI healthcare for underserved communities), NightVisionX (AI safety for truck drivers), and SynBioGuard (biosensors for clean water). I love turning ideas into products, leading teams, and applying machine learning to public health and safety.',
+    'curious thinker passionate about technology, science, and creating meaningful impact through innovation, problem-solving, and a constant drive to learn and push boundaries',
+    /*'By morning, I\'ll trade sleeping bags for notebooks—Mathematics for AI, Interpretable ML with Professor Rudin, DSA with Professor Ola. Then deploy SaathiCare in Kampala clinics with unstable Wi-Fi.',
+    'At Duke, I\'ll blend K-Ville\'s persistence with Bass Connections\' global health research, Innovation Co-Lab\'s makerspace, and BRiDGE\'s incubator. That\'s the Duke difference.',*/
   ],
   testimonials: [{
-    quote: 'Vithal founded SaathiCare, an AI-powered healthcare app screening 50K+ underserved Indians. Built multilingual AI triage models, detected 500+ critical health risks, and is in process of acquiring $50K seed funding.',
+    quote: 'At SFLML, as Finance Head, he was painfully frugal. But he could somehow sweet-talk CSR officers into doubling their contributions',
     shortName: 'SaathiCare',
     name: 'Founder – SaathiCare',
     headshot: stefImage,
@@ -17,10 +19,10 @@ export const aboutContent = {
       'AI Healthcare | 50K+ Served | Featured in Times of India',
     ],
   }, {
-    quote: 'NightVisionX: AI obstacle detection deployed across 700+ trucks, reducing crashes by 31%. Backed by India\'s Ministry of Transport, projected $45K revenue, enhancing safety across high-risk highway routes.',
-    name: 'Founder & Lead Engineer – NightVisionX',
-    shortName: 'NightVisionX',
-    title: ['AI Safety Tech | 700+ Trucks | Govt-Backed'],
+    quote: 'I tested HapticEye for a week, and it honestly made walking feel so much less stressful. I expected the haptics to be hard to comprehend at first but after about two days of usage the patterns were quite recognizable and easy to follow. Highly recommend it to any visually impaired individuals.',
+    name: 'Aman Mittal - Businessman, Hobbyist Singer (visually impaired)',
+    shortName: 'HapticEye',
+    title: ['Haptic Feedback Belt'],
     headshot: jpImage,
   }, {
     quote: 'SynBioGuard Innovations: Invented patent-pending LuccKey biosensor for E.coli detection. Deployed to 20K+ rural users, cutting waterborne illness 40%. Recognized by World Health Organization.',

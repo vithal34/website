@@ -13,48 +13,7 @@ import TwitterIconSvg from './svg/TwitterIconSvg';
 // const availablity = 'available Q4';
 
 const ctas = [
-  null,
-  null,
-  'avail 4 freelance!',
-  null,
-  null,
-  'avail 4 freelance!',
-  null,
-  null,
-  'wow so clickable',
-  'much convert',
-  null,
-  null,
-  'avail 4 freelance!',
-  null,
-  null,
-  'this is my CTA',
-  'i hope you like it',
-  null,
-  null,
-  'trying to strike',
-  'a self-aware tone with it',
-  'but still have it work',
-  'ya know?',
-  null,
-  null,
-  'are the colors too much?',
-  'how bout the hover state?',
-  null,
-  null,
-  'ngl, very outta',
-  'my comfort zone',
-  'to self-promote',
-  'lolololol',
-  null,
-  null,
-  'feels sorta like',
-  'selling peanuts',
-  'at a ballgame',
-  'but I\'M THE PEANUTS',
-  '"webdev!"',
-  '"get your webdev, here!"',
-  '"webdeeeeeev!"',
+  'Coach K would want you to hover here',
 ];
 
 export const useShowCtas = () => {
@@ -215,7 +174,7 @@ export const CTA = () => {
         </ul>
       </nav>
       {showBg && (
-        <div className="top-0 left-0 fixed w-full h-full overflow-hidden z-[-1] text-2vw] font-mono text-white break-all opacity-30" aria-hidden>{new Array(2000).fill(null).map(() => 'Go Duke!')}</div>
+        <div className="top-0 left-0 fixed w-full h-full overflow-hidden z-[-1] text-2vw] font-mono text-white break-all opacity-30" aria-hidden>{new Array(2000).fill(null).map(() => 'Go, Devils, Go! ')}</div>
       )}
     </>
   );
