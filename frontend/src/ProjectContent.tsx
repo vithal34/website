@@ -215,12 +215,10 @@ export const ProjectCTA = () => (
     <H2>Let's Connect</H2>
     <P className="mb-8">
       {`
-        Interested in SaathiCare, NightVisionX, or SynBioGuard?
-        Want to discuss AI in healthcare, safety tech, or synthetic biology?
-        Or just want to connect about Duke?
+        Want to ask something specific?
         I'd love to hear from you!
       `}
     </P>
-    <ExternalLink href={contactHref} cursor="contact">vithal @ vithalagrawal.com</ExternalLink>
+    <ExternalLink href={contactHref} cursor="contact">vithalagrawal1 @ gmail.com</ExternalLink>
   </div>
 );

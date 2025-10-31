@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import React from 'react';
 import { DefaultSeo } from 'next-seo';
+import { Analytics } from '@vercel/analytics/react';
 // import { useEventListener } from 'usehooks-ts';
 import { CustomCursor } from '../src/CustomCursor';
 import { ThreePage } from '../src/ThreePage';
@@ -61,6 +62,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <CustomCursor />
       <PlayAllVideosOnClickInLowPowerMode />
+      <Analytics />
     </PasswordProtection>
   );
 }
