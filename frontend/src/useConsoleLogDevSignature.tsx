@@ -10,7 +10,7 @@ export const useConsoleLogDevSignature = () => {
   useTimeout(() => {
     log('Hover here — Coach K would want you to?');
     log('Hovering here counts as a three pointers against UNC!');
-    log('This is my Duke application portfolio!');
+    log('Welcome AOs! Please forgive me if you find it too funky!');
     console.log('%chttps://vithalagrawal.com', sizeStyle);
     log('hmu to nerd out about SaathiCare, NightVisionX, or Duke!');
     log('vithal@vithalagrawal.com');

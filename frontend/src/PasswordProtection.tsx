@@ -47,16 +47,12 @@ export function PasswordProtection({ children }: { children: React.ReactNode }) 
     return (
       <div
         className="fixed inset-0 text-white flex items-center justify-center z-[999999999]"
-        style={{
-          backgroundImage: 'url(/images/wallpaper.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
+        style={{ backgroundColor: '#012169' }}
       >
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="relative text-center max-w-md px-8 z-10">
+        <div className="text-center max-w-md px-8">
           <h1 className="text-4xl font-mono mb-2 mb-8">Vithal Agrawal</h1>
-          <h2 className="text-xl font-mono mb-6">Duke Application Portfolio</h2>
+          <h2 className="text-xl font-mono mb-6">Welcome Admissions Team! 
+            It's a bit experimental, but so am I.</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="relative">
               <input
@@ -81,13 +77,16 @@ export function PasswordProtection({ children }: { children: React.ReactNode }) 
             </div>
             <button
               type="submit"
-              className="w-full px-6 py-3 bg-white text-blue rounded font-mono font-bold hover:bg-white/90 transition-colors"
+              className="w-full px-6 py-3 bg-white rounded font-mono font-bold hover:bg-white/90 transition-colors"
+              style={{ color: '#012169' }}
             >
               Enter
             </button>
           </form>
           <p className="mt-6 text-sm font-mono text-white/70">
-            Confidential content © 2025 Vithal Agrawal
+           Confidential content © 2025 Vithal Agrawal
+
+           P.S. Please forgive me if it's a bit too much.
           </p>
         </div>
       </div>
