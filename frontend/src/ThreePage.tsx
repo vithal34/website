@@ -16,7 +16,7 @@ export const ThreePage = ({ siteData }:{siteData:SiteData}) => (
   <>
       <Head>
       <title>Vithal Agrawal | Aspiring Blue Devil</title>
-      <meta name="description" content="Vithal Agrawal - Founder, AI Technologist, Aspiring Blue Devil at Duke University" />
+      <meta name="description" content="Vithal Agrawal - Founder, AI Technologist, Aspiring Blue Devil" />
       <link rel="icon" href="/images/favicon.png" />
     </Head>
     <main className="w-screen h-[calc(100*var(--vh))] font-sans overflow-hidden">

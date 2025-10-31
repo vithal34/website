@@ -77,6 +77,7 @@ export const Slides = ({
         `}
         >
           <TextWindow
+            timePerChar={5}
             title="VITHAL_AGRAWAL.exe"
             className={`
             relative self-baseline
@@ -86,7 +87,7 @@ export const Slides = ({
             transition-transform duration-[1s]
             ${slide === 'mission' ? '' : 'translate-x-[-80%] translate-y-[-40%]'}
           `}
-            delay={1000}
+            delay={500}
             topColor="violet"
             wrapperClassName="p-[1em]"
             texts={aboutContent.mission}

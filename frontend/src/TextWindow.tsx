@@ -5,7 +5,7 @@ import { TerminalWindowProps } from './TerminalWindowProps';
 import { TerminalWindowButton } from './TerminalWindowButton';
 
 export const TextWindow = ({
-  texts, buttonColor = 'cyan', buttonText = 'button!', onClick = () => { }, textMargin = '1em', noButton = false, disabled = false, icon = null, ...terminalWindowProps
+  texts, buttonColor = 'cyan', buttonText = 'button!', onClick = () => { }, textMargin = '1em', noButton = false, disabled = false, icon = null, timePerChar = TIME_PER_CHAR, ...terminalWindowProps
 }: {
   texts: string[];
   buttonColor?: string;
@@ -14,13 +14,14 @@ export const TextWindow = ({
   noButton?: boolean;
   disabled?: boolean;
   icon?: string | null;
+  timePerChar?: number;
   onClick?: () => void;
 } & Omit<TerminalWindowProps, 'children'>) => {
   const pauseBetween = 500;
   const startDelay = 500;
   const delays = [startDelay, ...texts.map((text, i, array) => {
     const charCountSoFar = array.slice(0, i + 1).reduce((acc, cur) => acc + cur.length, 0);
-    return startDelay + charCountSoFar * TIME_PER_CHAR + pauseBetween * (i + 1);
+    return startDelay + charCountSoFar * timePerChar + pauseBetween * (i + 1);
   })];
   return (
     <TerminalWindow {...terminalWindowProps}>
@@ -33,6 +34,7 @@ export const TextWindow = ({
         >
           <Typewriter
             delay={delays[i]}
+            timePerChar={timePerChar}
             hideCaratAtEnd={i !== array.length - 1}
           >
             {text}
