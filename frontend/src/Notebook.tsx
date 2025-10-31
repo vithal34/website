@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { animated, config } from '@react-spring/three';
+import { animated, config, useSpring } from '@react-spring/three';
 import { Color } from 'three';
 import { Text, Html } from '@react-three/drei';
 import { GroupProps } from '@react-three/fiber';
@@ -14,7 +14,6 @@ import colors from './colors';
 import { useBreakpoints } from './useBreakpoints';
 import { honorsAndAwards } from './honors';
 import { ThreeButton } from './ThreeButton';
-import { CustomCursorHover } from './CustomCursor';
 import { useSceneController } from './SceneController';
 
 export function Notebook({ ...groupProps }:GroupProps) {
@@ -22,17 +21,24 @@ export function Notebook({ ...groupProps }:GroupProps) {
   const linesVisible = useTrueAfterDelay(time += 1000);
   const fillVisible = useTrueAfterDelay(time += 500);
   const [honorsOpen, setHonorsOpen] = useState(false);
+  const [hovering, setHovering] = useState(false);
   const { scene } = useSceneController();
 
   const breakpoints = useBreakpoints();
 
   const position:CoordArray = breakpoints.menu ? [4, 1.3, 2.5] : [-1.5, 3.8, 1.8];
 
+  const { animatedRotation } = useSpring({
+    animatedRotation: [0, 0, hovering ? Math.PI / 15 : 0],
+    config: config.wobbly,
+  });
+
   return (
     <>
       <animated.group
         {...groupProps}
         position={position}
+        rotation={animatedRotation as any}
       >
         <Scribble
           points={(bookFillPoints as CoordArray[])}
@@ -80,11 +86,10 @@ export function Notebook({ ...groupProps }:GroupProps) {
             activationMsg="Opens a list of honors and awards"
             cursor="open-project"
             onClick={() => {
-              console.log('Notebook clicked! Opening honors modal');
               setHonorsOpen(true);
             }}
-            onFocus={() => {}}
-            onBlur={() => {}}
+            onFocus={() => { setHovering(true); }}
+            onBlur={() => { setHovering(false); }}
             debug={false}
           />
         )}
@@ -126,10 +131,7 @@ export function Notebook({ ...groupProps }:GroupProps) {
                   border-2 border-white hover:border-blue
                   cursor-pointer z-10
                 `}
-                onClick={() => {
-                  console.log('Closing honors modal');
-                  setHonorsOpen(false);
-                }}
+                onClick={() => { setHonorsOpen(false); }}
                 type="button"
                 aria-label="close honors"
                 style={{ pointerEvents: 'auto' }}

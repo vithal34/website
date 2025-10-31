@@ -215,7 +215,7 @@ export const CTA = () => {
         </ul>
       </nav>
       {showBg && (
-        <div className="top-0 left-0 fixed w-full h-full overflow-hidden z-[-1] text-2vw] font-mono text-white break-all opacity-30" aria-hidden>{new Array(2000).fill(null).map(() => 'hi!')}</div>
+        <div className="top-0 left-0 fixed w-full h-full overflow-hidden z-[-1] text-2vw] font-mono text-white break-all opacity-30" aria-hidden>{new Array(2000).fill(null).map(() => 'Go Duke!')}</div>
       )}
     </>
   );
