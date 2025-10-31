@@ -6,9 +6,7 @@ import jpImage from '../public/images/jp.jpg';
 export const aboutContent = {
   intro: ['I\'m Vithal! (he/him)', 'Innovator | Founder | Aspiring Blue Devil | Duke Class of 2029'],
   mission: [
-    'At 2 AM in K-Ville, I\'d be counting down to tent checks. Cold, committed, awake.',
-    'By morning, I\'ll trade sleeping bags for notebooks—Mathematics for AI, Interpretable ML with Professor Rudin, DSA with Professor Ola. Then deploy SaathiCare in Kampala clinics with unstable Wi-Fi.',
-    'At Duke, I\'ll blend K-Ville\'s persistence with Bass Connections\' global health research, Innovation Co-Lab\'s makerspace, and BRiDGE\'s incubator. That\'s the Duke difference.',
+    'I\'m Vithal Agrawal — founder, engineer, and problem-solver focused on useful AI and biotech. I built SaathiCare (AI healthcare for underserved communities), NightVisionX (AI safety for truck drivers), and SynBioGuard (biosensors for clean water). I love turning ideas into products, leading teams, and applying machine learning to public health and safety.',
   ],
   testimonials: [{
     quote: 'Vithal founded SaathiCare, an AI-powered healthcare app screening 50K+ underserved Indians. Built multilingual AI triage models, detected 500+ critical health risks, and is in process of acquiring $50K seed funding.',
