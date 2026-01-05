@@ -12,7 +12,6 @@ import { animated, config, useSpring } from '@react-spring/three';
 import { RoundedBoxGeometry } from 'three-stdlib';
 import { MeshDistortMaterial } from '@react-three/drei';
 import { Project } from '../generatedSanitySchemaTypes';
-import { CoffeeVideoMaterial } from './CoffeeVideoMaterial';
 import { ThreeButton } from './ThreeButton';
 import colors from './colors';
 import { ProjectHtmlModal } from './ProjectHtmlModal';
@@ -195,10 +194,10 @@ export const ProjectEntry = ({
               args={[1, 1, 1, 4, 0.1]}
               attach="geometry"
             />
-            <CoffeeVideoMaterial
-              videoSrc={`/videos/${project?.slug?.current}.mp4`}
-              thumbSrc="/videos/thumb.jpg"
-              active={active}
+            <meshStandardMaterial
+              color={colors.cyan}
+              transparent
+              opacity={0.8}
             />
           </mesh>
         </animated.group>
