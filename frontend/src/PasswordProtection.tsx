@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const PASSWORD = 'Portfolio2025';
+const PASSWORD = 'Vithal';
 const STORAGE_KEY = 'portfolio_authenticated';
 
 export function PasswordProtection({ children }: { children: React.ReactNode }) {
