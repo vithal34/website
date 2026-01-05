@@ -11,7 +11,7 @@ import LinkedInIconSvg from './svg/LinkedInIconSvg';
 
 // const availablity = 'available Q4';
 
-const ctas = [
+const ctas: string[] = [
 ];
 
 export const useShowCtas = () => {
