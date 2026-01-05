@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-const PASSWORD = 'BlueDevils';
-const STORAGE_KEY = 'duke_portfolio_authenticated';
+const PASSWORD = 'Portfolio2025';
+const STORAGE_KEY = 'portfolio_authenticated';
 
 export function PasswordProtection({ children }: { children: React.ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

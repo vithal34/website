@@ -179,28 +179,6 @@ export const ProjectEntry = ({
         />
         )}
 
-        <animated.group
-          position={animatedCubeFloatingOffset}
-        >
-          <mesh
-            position={[0, 0, -0.2]}
-            scale={[1, 1, 0.1]}
-          >
-            <sphereBufferGeometry
-              args={[1, 20, 20]}
-              attach="geometry"
-            />
-            <MeshDistortMaterial
-              color={colors.cyan}
-              speed={6}
-              radius={1}
-              distort={0.5}
-              transparent
-              opacity={0.4}
-              roughness={0}
-            />
-          </mesh>
-        </animated.group>
       </group>
       <animated.group
         position={animatedCubePosition}

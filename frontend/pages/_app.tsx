@@ -24,8 +24,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   //   console.log('focused on', e.target);
   // });
 
-  const title = 'Vithal Agrawal | Founder | Aspiring Blue Devil';
-  const description = 'AI Founder building healthcare, safety, and biotech solutions. SaathiCare (50K+ served), NightVisionX (700+ trucks), SynBioGuard (WHO-recognized). Ready for Duke.';
+  const title = 'Vithal Agrawal | Founder';
+  const description = 'AI Founder building healthcare, safety, and biotech solutions. SaathiCare (50K+ served), NightVisionX (700+ trucks), SynBioGuard (WHO-recognized).';
   const url = 'https://vithalagrawal.com';
 
   return (
@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               url: 'https://vithalagrawal.com/images/social.png',
               width: 2333,
               height: 1313,
-              alt: 'Vithal Agrawal - Founder, Aspiring Blue Devil',
+              alt: 'Vithal Agrawal - Founder',
               type: 'image/png',
             },
           ],

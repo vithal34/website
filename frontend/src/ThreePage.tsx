@@ -15,14 +15,14 @@ const DynamicThreeCanvas = dynamic(() => import('./ThreeCanvas'), {
 export const ThreePage = ({ siteData }:{siteData:SiteData}) => (
   <>
       <Head>
-      <title>Vithal Agrawal | Aspiring Blue Devil</title>
-      <meta name="description" content="Vithal Agrawal - Founder, AI Technologist, Aspiring Blue Devil" />
+      <title>Vithal Agrawal | Founder</title>
+      <meta name="description" content="Vithal Agrawal - Founder, AI Technologist" />
       <link rel="icon" href="/images/favicon.png" />
     </Head>
     <main className="w-screen h-[calc(100*var(--vh))] font-sans overflow-hidden">
       <ForBotsOnly>
         <>
-          <h1>Vithal Agrawal - Aspiring Blue Devil</h1>
+          <h1>Vithal Agrawal</h1>
           {aboutContent.intro.map((par) => <p key={par}>{par}</p>)}
           <h2>About</h2>
           <h3>Mission</h3>

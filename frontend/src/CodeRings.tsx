@@ -42,18 +42,12 @@ const UPDATE_INTERVAL = 100;
 const TEXT_LINE_LENGTH = 158;
 /** The possible lines of code we can type on the rings */
 const TEXT_LINES = [
-  '<BlueDevil><K_Ville tent={true} /><CameronIndoor commitment={100} /><Countdown check={10}/></BlueDevil>',
-  'const tentCheck = () => { return check >= 10 ? "stay" : "out"; } // K-Ville persistence',
-  '// 2 AM in K-Ville: cold, committed, awake. Ten of twelve must stay.',
   'import { ProfessorRudin } from "InterpretableML"; import { BassConnections } from "GlobalHealth";',
   'const saathiCare = deploy({ clinics: "Kampala", wifi: "unstable", patients: "firstSmartphone" });',
   'const nightVisionX = train({ model: "CNN", cameras: "lowCost", trucks: 700, crashes: -31 });',
   'const innovationColab = makerspace({ algorithms: "AI", peers: "neuralNetworks", dream: true });',
-  'const dukeEngage = ({ placement: "Accra", test: "SaathiCare", clinic: "realWorld", impact: "scale" });',
   'const interpretableML = explain({ prediction: "whyIll", trust: "anatomy", patient: "transparency" });',
   'const bridgeIncubator = refine({ prototype: "NightVisionX", founder: "YC", unit: "economics" });',
-  'const kville = { tent: "black", temperature: "cold", commitment: "awake", unique: "Duke" };',
-  '// Persistence built through camaraderie. That\'s Duke.',
   'const mathematicsAI = ground({ algorithms: "SaathiCare", fieldwork: "rural", precision: "math" });',
   'const dsa = learn({ law: "Astrachan", scale: "noBreak", systems: "structure", professor: "Ola" });',
   'const bassConnections = study({ bias: "algorithmic", healthcare: true, peers: "GlobalHealth" });',

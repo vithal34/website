@@ -12,7 +12,6 @@ import LinkedInIconSvg from './svg/LinkedInIconSvg';
 // const availablity = 'available Q4';
 
 const ctas = [
-  'Coach K would want you to hover here',
 ];
 
 export const useShowCtas = () => {
@@ -162,7 +161,7 @@ export const CTA = () => {
         </ul>
       </nav>
       {showBg && (
-        <div className="top-0 left-0 fixed w-full h-full overflow-hidden z-[-1] text-2vw] font-mono text-white break-all opacity-30" aria-hidden>{new Array(2000).fill(null).map(() => 'Go, Devils, Go! ')}</div>
+        <div className="top-0 left-0 fixed w-full h-full overflow-hidden z-[-1] text-2vw] font-mono text-white break-all opacity-30" aria-hidden>{new Array(2000).fill(null).map(() => 'Innovation ')}</div>
       )}
     </>
   );
